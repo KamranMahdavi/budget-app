@@ -47,10 +47,7 @@ class Category:
             self.withdraw(amount, f'Transfer to {other_category.category}')
         else:
             return False
-        
-    def check_funds(self, amount):
-        return False if self.balance < amount else True
-    
+            
 food = Category('Food')
 food.deposit(1000, 'deposit')
 food.withdraw(10.15, 'groceries')
