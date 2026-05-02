@@ -82,7 +82,7 @@ Percentage spent by category
 """
 ```
 
-## Concepts Utilized
+## Concepts Demonstrated
 
 - Object-Oriented Programming (OOP)
 - Encapsulation
